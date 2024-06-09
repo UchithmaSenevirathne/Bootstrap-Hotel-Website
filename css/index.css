@@ -97,14 +97,16 @@
 
 .booking__container label {
     position: absolute;
-    top: 50%;
+    /* top: 50%; */
     left: 0;
     transform: translateY(-50%);
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     font-weight: 500;
     color: var(--text-dark);
     pointer-events: none;
     transition: 0.3s;
+    font-size: 0.8rem;
+    top: 0;
   }
 
 .booking__container input {
@@ -141,6 +143,29 @@
     background-color: var(--primary-color-dark);
   }
 
+  .about-container {
+    margin: 300px;
+  }
+
+  .about-content {
+    gap: 100px;
+  }
+  .about-container > div:nth-child(1)  h6 {
+    letter-spacing: 3px;
+    color: var(--primary-color-dark);
+  }
+
+  .about-container > div:nth-child(1)  p {
+    line-height: 2;
+  }
+
+  .about-img-container img{
+    width: 300px;
+  }
+
+  .about-img-container:nth-child(2) > div > img {
+    height: 100%;
+  }
   
   @media (width < 900px) {
     .booking__container form {

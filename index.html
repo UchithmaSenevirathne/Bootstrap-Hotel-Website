@@ -27,13 +27,13 @@
             <a class="nav-link" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">About</a>
+            <a class="nav-link" aria-current="page" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Rooms</a>
+            <a class="nav-link" aria-current="page" href="#">Hotels</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Dining</a>
+            <a class="nav-link" aria-current="page" href="#">Reviews</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#">Gallery</a>
@@ -53,7 +53,7 @@
     <div class="header__image__container position-relative rounded-5">
       <div class="header__content">
         <h1 class="mb-3 lh-2 fw-semibold">Enjoy Your Dream Vacation</h1>
-        <p>Grab your reservation, stay packages and experience luxury redefined at lowest price.</p>
+        <p>Book Hotels, stay packages and experience luxury redefined at lowest price.</p>
       </div>
       <div class="booking__container position-absolute d-flex align-items-center gap-3 py-5 px-4 rounded-4 start-50">
         <form class="w-100 flex-grow-1 d-grid gap-3">
@@ -66,21 +66,21 @@
           </div>
           <div class="form__group">
             <div class="input__group w-100 position-relative">
-              <input type="text" class="w-100 fs-6 bg-transparent"/>
+              <input type="date" class="w-100 fs-6 bg-transparent"/>
               <label>Check In</label>
             </div>
             <p class="mt-2">Add date</p>
           </div>
           <div class="form__group">
             <div class="input__group w-100 position-relative">
-              <input type="text" class="w-100 fs-6 bg-transparent"/>
+              <input type="date" class="w-100 fs-6 bg-transparent"/>
               <label>Check Out</label>
             </div>
             <p class="mt-2">Add date</p>
           </div>
           <div class="form__group">
             <div class="input__group w-100 position-relative">
-              <input type="text" class="w-100 fs-6 bg-transparent"/>
+              <input type="number" class="w-100 fs-6 bg-transparent"/>
               <label>Guests</label>
             </div>
             <p class="mt-2">Add guests</p>
@@ -90,6 +90,32 @@
       </div>
     </div>
   </header>
+
+  <section id="about" class="d-flex justify-content-center about-container">
+    <div class="d-flex about-content">
+      <div class="d-flex flex-column gap-3 justify-content-center">
+        <h6>ABOUT US</h6>
+        <h1 class="pb-3">Welcome to Red Lotus</h1>
+        <p class="fs-6 fw-light">
+          Red Lotus is a distinguished hotel booking group specializing in
+          managing and securing hotel accommodations for a diverse range of clients.
+          we are renowned for its expertise in providing tailored booking solutions,
+          ensuring that individual travelers, corporate clients, and large groups
+          receive the best possible service and accommodations to meet their
+          specific needs.
+        </p>
+      </div>
+      <div class="d-flex justify-content-center about-img-container gap-3">
+        <div class="d-flex flex-column align-items-center justify-content-center gap-3">
+          <img src="./css/assets/about1.jpg" alt=""  class="rounded-2">
+          <img src="./css/assets/about2.jpg" alt=""  class="rounded-2">
+        </div>
+        <div class="d-flex flex-column">
+          <img src="./css/assets/about3.jpg" alt="" class="rounded-2">
+        </div>
+      </div>
+    </div>
+  </section>
   
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

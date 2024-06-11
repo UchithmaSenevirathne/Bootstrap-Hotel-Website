@@ -13,6 +13,12 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
     rel="stylesheet"
   />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="
+https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
+" rel="stylesheet">
+
 </head>
 <body>
 
@@ -35,13 +41,13 @@
             <a class="nav-link" aria-current="page" href="#hotel">Hotels</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Reviews</a>
+            <a class="nav-link" aria-current="page" href="#reviews">Reviews</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Contact</a>
+            <a class="nav-link" aria-current="page" href="#contact">Contact</a>
           </li>
         </ul>
         <form class="" role="book">
@@ -97,7 +103,7 @@
 
   <!-- about -->
 
-  <section id="about" class="d-flex justify-content-center about-container">
+  <!-- <section id="about" class="d-flex justify-content-center about-container">
     <div class="d-flex about-content">
       <div class="d-flex flex-column gap-3 justify-content-center">
         <h6>ABOUT US</h6>
@@ -121,58 +127,229 @@
         </div>
       </div>
     </div>
+  </section> -->
+
+  <section class="container-xxl" id="about">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6 about-content">
+          <h6 class="about-title text-start">ABOUT</h6>
+          <h1 class="mb-4">Welcome to Red Lotus</h1>
+          <p class="mb-4 fw-light">
+            Red Lotus is a distinguished hotel booking group specializing in
+          managing and securing hotel accommodations for a diverse range of clients.
+          we are renowned for its expertise in providing tailored booking solutions,
+          ensuring that individual travelers, corporate clients, and large groups
+          receive the best possible service and accommodations to meet their
+          specific needs.
+          </p>
+
+          <div class="row g-3 pb-4">
+
+            <div class="col-sm-4 wow fadeIn">
+                <div class="border rounded p-1">
+                  <div class="border rounded text-center p-4">
+                    <i class="fa fa-hotel fa-2x mb-4"></i>
+
+                    <h2 class="mb-1" data-toggle="counter-up">1234</h2>
+                    <p class="mb-0">Rooms</p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 wow fadeIn">
+              <div class="border rounded p-1">
+                <div class="border rounded text-center p-4">
+                  <i class="fa fa-users fa-2x mb-4"></i>
+
+                  <h2 class="mb-1" data-toggle="counter-up">1234</h2>
+                  <p class="mb-0">Staffs</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 wow fadeIn">
+              <div class="border rounded p-1">
+                <div class="border rounded text-center p-4">
+                  <i class="fa fa-users fa-2x mb-4"></i>
+
+                  <h2 class="mb-1" data-toggle="counter-up">1234</h2>
+                  <p class="mb-0">Clients</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-6 about-imgs">
+          <div class="row g-3">
+            <div class="col-6 text-end">
+              <img src="./css/assets/cover.jpg" alt="" style="margin-top: 17%;" class="img-fluid rounded w-75 wow zoomIn">
+            </div>
+            <div class="col-6 text-start">
+              <img src="./css/assets/about1.jpg" alt="" class="img-fluid rounded w-100 wow zoomIn">
+            </div>
+            <div class="col-6 text-end">
+              <img src="./css/assets/about2.jpg" alt="" class="img-fluid rounded w-50 wow zoomIn">
+            </div>
+            <div class="col-6 text-start">
+              <img src="./css/assets/card3.jpg" alt="" class="img-fluid rounded w-75 wow zoomIn">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- cards -->
-   <section id="hotel" class="d-flex justify-content-center gap-4 flex-wrap">
-    <div class="card" style="width: 20rem;">
-      <img src="./css/assets/about1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
+   <section  id="hotel" class="">
+    <div class="hotel-head">
+      <h6>BLOG</h6>
+      <h1>Our Hotels</h1>
     </div>
+    
+    <div class="d-flex justify-content-center gap-4 flex-wrap mt-5">
 
-    <div class="card" style="width: 20rem;">
-      <img src="./css/assets/about1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="card">
+        <img src="./css/assets/about1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hotel Madara</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="text-end">$256</p>
+        </div>
       </div>
-    </div>
-
-    <div class="card" style="width: 20rem;">
-      <img src="./css/assets/about1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+  
+      <div class="card">
+        <img src="./css/assets/card1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Shangrilla</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="text-end">$256</p>
+        </div>
       </div>
-    </div>
-
-    <div class="card" style="width: 20rem;">
-      <img src="./css/assets/about1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+  
+      <div class="card">
+        <img src="./css/assets/card2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hotel Araliya</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="text-end">$256</p>
+        </div>
       </div>
-    </div>
-
-    <div class="card" style="width: 20rem;">
-      <img src="./css/assets/about1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+  
+      <div class="card">
+        <img src="./css/assets/card3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">City Hotel</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="text-end">$256</p>
+        </div>
       </div>
+  
+      <div class="card">
+        <img src="./css/assets/about2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hotel Kabalana</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="text-end">$256</p>
+        </div>
+      </div>
+  
     </div>
-
    </section>
+
+   <!-- reviews -->
+
+   <section class="align-items-center reviews" id="reviews">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner rounded-5">
+        <div class="carousel-item active">
+          <!-- <img src="./css/assets/about1.jpg" class="d-block w-100 h-100 object-fit-cover" alt="..."> -->
+          <div class="carousel-caption d-block d-md-block text-dark">
+            <img src="./css/assets/review1.jpg" alt="" class="review-img object-fit-cover mb-3" style="width: 100px; height: 100px;">
+            <h5>Meg Masters</h5>
+            <p class="fw-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat consequuntur dolore quam, odit,
+               doloribus id sapiente nihil placeat consequatur nostrum, itaque eum animi cum ipsa similique
+              recusandae a temporibus. Harum?
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!-- <img src="./css/assets/about1.jpg" class="d-block w-100 h-100 object-fit-cover" alt="..."> -->
+          <div class="carousel-caption d-none d-md-block text-dark">
+            <img src="./css/assets/review2.jpg" alt="" class="review-img object-fit-cover mb-3" style="width: 100px; height: 100px;">
+            <h5>Eric Lucatero</h5>
+            <p class="fw-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat consequuntur dolore quam, odit,
+              doloribus id sapiente nihil placeat consequatur nostrum, itaque eum animi cum ipsa similique
+             recusandae a temporibus. Harum?
+           </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!-- <img src="./css/assets/about1.jpg" class="d-block w-100 h-100 object-fit-cover" alt="..."> -->
+          <div class="carousel-caption d-none d-md-block text-dark">
+            <img src="./css/assets/review3.jpg" alt="" class="review-img object-fit-cover mb-3" style="width: 100px; height: 100px;">
+            <h5>Joseph Campbell</h5>
+            <p class="fw-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat consequuntur dolore quam, odit,
+              doloribus id sapiente nihil placeat consequatur nostrum, itaque eum animi cum ipsa similique
+             recusandae a temporibus. Harum?
+           </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   </section>
+
+   <!--------------------- contact ------------------------------->
+    
+   <section class="contact" id="contact">
+    <div class="contact-container">
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                       <textarea name="message" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><i class="fas fa-phone"></i>+94 71 330 1004</p>
+                <p><i class="fas fa-envelope"></i>REDLotus@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i>#126, Colombo-Galle Main Road, Galle, SriLanka.</p>
+            </div>
+        </div>
+    </div>
+</section>
+   
   
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <script src="./js/Reviews.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </body>
 </html>

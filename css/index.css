@@ -190,7 +190,7 @@
   }
 
   .reviews{
-    padding: 0px 100px 200px 100px;
+    padding: 0px 100px 200px 0px;
   }
 
   .review-img{
@@ -203,6 +203,17 @@
     position: relative;
     z-index: 100;
   }
+
+  #gallery img{
+    transition: all 0.5s ease 0s;
+  }
+
+  #gallery img:hover{
+    transform: scale(0.9);
+    transition: all 0.5s ease 0s;
+  }
+
+  
 
   /* .carousel::before{
     content: '';

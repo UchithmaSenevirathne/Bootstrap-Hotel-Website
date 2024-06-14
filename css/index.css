@@ -20,15 +20,22 @@
     margin-right: 100px;
 }
 
+.book-btn a {
+  text-decoration: none;
+  color: white;
+}
+
 .book-btn {
     background-color: var(--primary-color);
-    color: white;
     width: 100px;
+}
+
+.book-btn:hover a {
+  color: var(--primary-color);
 }
 
 .book-btn:hover{
     border: 1px solid var(--primary-color-dark);
-    color: var(--primary-color);
 }
 
 .nav-link:hover {
